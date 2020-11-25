@@ -34,7 +34,7 @@ EOF
 
 }
 
-function error() { echo $error_code; echo "ERROR: $*" >&2; exit 0; }
+function error() { echo $error_code; exit 0; }
 
 function result() { echo "$1"; exit 0; }
 
